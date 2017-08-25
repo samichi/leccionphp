@@ -21,7 +21,7 @@
 <?php
 
 $id=$_GET["id"];
-include_once("perfilCollector.php");
+include_once("PerfilCollector.php");
 include_once("Perfil.php");
 $PerfilCollectorObj = new PerfilCollector();
 $ObjPerfil = $PerfilCollectorObj->showPerfil($id);
